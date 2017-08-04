@@ -97,4 +97,13 @@
 
 	});
 
+	//Contact Form
+	$("a.contact").on('click', function(){
+		$("#contact").removeClass("mask")
+	})
+
+	$("#submitContactForm").on('click', function(){
+		$('form').addClass('mask')
+	})
+
 })(jQuery);

@@ -97,7 +97,7 @@
 
 	});
 
-	//Contact Form
+	// Contact Form
 	$("a.contact").on('click', function(){
 		$("#contact").removeClass("mask")
 	})

@@ -104,6 +104,7 @@
 
 	$("#submitContactForm").on('click', function(){
 		$('form').addClass('mask')
+		$('confirmation').removeClass('notif')
 	})
 
 })(jQuery);

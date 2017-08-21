@@ -2049,6 +2049,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin: 2em;
 		}
 
 			ul.actions li {
@@ -3264,7 +3265,7 @@
 		z-index: 10000;
 	}
 
-		#header h1 {
+		#header h3 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
@@ -3276,7 +3277,7 @@
 			top: 0;
 		}
 
-			#header h1 a {
+			#header h3 a {
 				border: 0;
 				display: block;
 				height: inherit;
@@ -3285,7 +3286,7 @@
 
 				@media screen and (max-width: 736px) {
 
-					#header h1 a {
+					#header h3 a {
 						font-size: 0.8em;
 					}
 
@@ -3365,7 +3366,7 @@
 			background: transparent;
 		}
 
-			#header.alt h1 {
+			#header.alt h3 {
 				-moz-pointer-events: none;
 				-webkit-pointer-events: none;
 				-ms-pointer-events: none;

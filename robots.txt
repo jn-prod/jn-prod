@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: 
 
-Sitemap: http://jn-prod.com/sitemap.xml
+Sitemap: http://www.jn-prod.com/sitemap.xml

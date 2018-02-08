@@ -206,6 +206,9 @@ h2.brusher{
   font-style: italic;
   font-size:0.8rem;
 }
+.project{
+  margin-bottom: 50px;
+}
 #side-project img{
   padding: 0 0 0 0;
 }
@@ -225,14 +228,13 @@ h2.brusher{
 .project > .container {
   height: 100%;
 }
-.project-menu{/*
-  position: absolute;
-  bottom:0;
-  width: 100%;
-  height: 0px;
-  display: table-cell;
-  vertical-align: bottom;
-  float: none;*/
+.project-header{
+  height: 60px;
+
+}
+.project-description{
+  display: block;
+  height: 150px;
 }
 .project-menu-item{
   padding: 0 0 0 0;
@@ -254,9 +256,6 @@ a.project-menu-link{
 }
 a.project-menu-link:hover{
   text-decoration: none;
-}
-#influences{
-  margin-top: 100px;
 }
 #footer .social{
   margin: 0 10px 0 10px;

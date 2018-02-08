@@ -1,0 +1,322 @@
+/*
+COLOR :
+- black : #1d1c1c
+- primary blue : #079ed4 | #2f70da
+- secondary violet : #731de4 | #76617df;
+- punchline : #d500b8;
+
+FONTS :
+- heading : Brusher
+- body : texgyreadventor
+
+ICONS:
+- icon packs : https://www.flaticon.com/packs/miscellaneous-elements
+*/
+
+@font-face {
+    font-family: Brusher;
+    src: url("../fonts/Brusher.ttf");
+}
+@font-face {
+    font-family: texgyreadventor;
+    src: url("../fonts/texgyreadventor-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: texgyreadventor;
+    font-weight: bold;
+    src: url("../fonts/texgyreadventor-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "texgyreadventor";
+  font-style: italic;
+  src: url("../fonts/texgyreadventor-italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "texgyreadventor";
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/texgyreadventor-bolditalic.otf") format("opentype");
+}
+
+/* ---------------------------
+START => THEME 
+----------------------------*/
+/* Space out content a bit */
+body {
+  font-family: 'texgyreadventor', sans-serif;
+  font-weight: 200;
+  color: #FFF;
+  background-color:#1d1c1c;
+}
+ul{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+h1{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+a:hover{
+  color:#d500b8 !important;
+}
+.spacer{
+  display: block;
+  height: 3px;
+  width: 100%;
+
+  background: linear-gradient(
+    90deg,
+    #d500b8, 
+    #731de4
+  );
+  margin: 10px 0 6px 0;
+}
+.spacer-xs-top{
+  margin-top: 5px;
+}
+.spacer-sm-top{
+  margin-top: 10px;
+}
+.spacer-md-top{
+  margin-top: 20px;
+}
+.spacer-lg-top{
+  margin-top: 40px;
+}
+.spacer-xs-bottom{
+  margin-bottom: 5px;
+}
+.spacer-sm-bottom{
+  margin-bottom: 10px;
+}
+.spacer-md-bottom{
+  margin-bottom: 20px;
+}
+.spacer-lg-bottom{
+  margin-bottom: 40px;
+}
+.text-white {
+  color: #FFF;
+}
+.text-underline{
+  text-decoration: underline;
+}
+.hidde{
+  display: none;
+}
+.brusher{
+  font-family: 'Brusher', sans-serif;
+}
+h2.brusher{
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+.bg-black{
+  background-color: #000;
+}
+.bg-blue-grad-top {
+  background: 
+  linear-gradient(
+    #079ed4, 
+    #731de4
+  );
+}
+.bg-blue-grad-left {
+  background: 
+  linear-gradient(
+    90deg,
+    #079ed4, 
+    #731de4
+  );
+}
+.bg-white-light{
+  background-color: rgba(255,255,255,0.15);
+}
+.bg-red{
+  background-color: #d500b8;
+}
+
+.chart {
+  max-height: 110px;
+  margin-bottom: 20px;
+}
+.img-ico{
+  height: auto;
+  width: 15px;
+  margin-right: 10px;
+}
+/* ------- HEADER PAGE-------*/
+#header{
+  height: 100vh;
+}
+#header > .container{
+  height: 100%;
+}
+#header h2 {
+  font-size: 4rem;
+  padding: 2rem 0 2rem 0;
+  border-top: solid 2px #FFF;
+  border-bottom: solid 2px #FFF;
+  font-weight: 200;
+}
+#header button{
+  margin: 2rem 0 0 0;
+}
+#profil{
+  background-color:#1d1c1c;
+}
+#harskills{
+  padding: 0 25px 20px 25px;
+}
+
+#tools img{
+  margin: auto;
+  max-width: 460px;
+}
+#perfect-job{
+  background-color: #2f70da; 
+}
+#perfect-job h2{
+  margin: auto;
+}
+#perfect-job .col-md-4{
+  padding: 0 0 0 0;
+}
+.description{
+  color: #666666;
+  font-size: 0.8rem;
+  margin:0 0 0 0;
+}
+.description-italic{
+  font-style: italic;
+  font-size:0.8rem;
+}
+#side-project img{
+  padding: 0 0 0 0;
+}
+#side-project img.skills{
+  max-width: 280px;
+  margin: auto;
+}
+.project {
+  background-color: #000;
+}
+.project-img-wrapper{
+  padding: 0 0 0 0;
+}
+.project-img{
+  margin-top: 0;
+}
+.project > .container {
+  height: 100%;
+}
+.project-menu{/*
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 0px;
+  display: table-cell;
+  vertical-align: bottom;
+  float: none;*/
+}
+.project-menu-item{
+  padding: 0 0 0 0;
+  border: solid 1px #fff;
+  background-color: #000;
+}
+.project-menu-item:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+a.project-menu-link{
+  display: block;
+  padding: 15px 0 15px 0;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
+  text-decoration: none;
+}
+a.project-menu-link:hover{
+  text-decoration: none;
+}
+#influences{
+  margin-top: 100px;
+}
+#footer .social{
+  margin: 0 10px 0 10px;
+}
+.social a{
+ color :#FFF;
+}
+/* ---------------------------
+END <= THEME 
+----------------------------*/
+
+/* ---------------------------
+START => BOOTSTRAP CUSTOM 
+----------------------------*/
+
+/* Customize container */
+
+
+.container-fluid{
+  padding: 0 0 0 0 !important;
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  margin:auto !important;
+  border-bottom: .05rem solid #e5e5e5;
+  background: none !important;
+  border: none !important;
+}
+.jumbotron .btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.btn{
+  border: none !important;
+}
+.btn-primary {
+  background-color: #FFF;
+  color: #731de4;
+  border-radius: 0px !important;
+}
+.btn:hover {
+  background-color: #d500b8;
+  color: #FFF;
+}
+
+/* ---------------------------
+END <= BOOTSTRAP CUSTOM 
+----------------------------*/
+
+/* ---------------------------
+START => MOBILE 
+----------------------------*/
+@media (max-width: 576px) {
+
+}
+/* ---------------------------
+END <= MOBILE 
+----------------------------*/

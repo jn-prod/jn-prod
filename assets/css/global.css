@@ -261,6 +261,14 @@ a.project-menu-link:hover{
 .social a{
  color :#FFF;
 }
+
+a.cv{
+  font-size: 2rem;
+  color:#fff;
+}
+a.cv:hover{
+  text-decoration: none;
+}
 /* ---------------------------
 END <= THEME 
 ----------------------------*/

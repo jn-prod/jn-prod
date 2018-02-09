@@ -212,10 +212,6 @@ h2.brusher{
 #side-project img{
   padding: 0 0 0 0;
 }
-#side-project img.skills{
-  max-width: 280px;
-  margin: auto;
-}
 .project {
   background-color: #000;
 }
@@ -316,7 +312,13 @@ END <= BOOTSTRAP CUSTOM
 START => MOBILE 
 ----------------------------*/
 @media (max-width: 576px) {
-
+  #tools img{
+    margin: auto;
+    max-width: 300px;
+  }
+  .img-influence {
+    margin-bottom:50px;
+  }
 }
 /* ---------------------------
 END <= MOBILE 

@@ -113,8 +113,14 @@ a:hover{
 .text-white {
   color: #FFF;
 }
-.text-underline{
+.text-blue {
+  color : #079ed4;
+}
+.text-underline {
   text-decoration: underline;
+}
+.text-tools {
+  font-size:3.5rem;
 }
 .hidde{
   display: none;
